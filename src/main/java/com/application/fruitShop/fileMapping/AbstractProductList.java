@@ -7,7 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This class stores the data related to the purchase order
+ * Abstract class to provide mapping from files to Map, in order to
+ * be able to manage data
  */
 public abstract class AbstractProductList<T> implements FileToHashMap<T> {
 
